@@ -1,0 +1,593 @@
+{
+  "prompt_output_json_lengkap": {
+    "metadata": {
+      "dataset_id": "MPI_IPA_KELAS5_EKOSISTEM_FASE_C_V1",
+      "version": "1.0.0",
+      "status": "complete_valid",
+      "language": "id-ID",
+      "format": "application/json",
+      "created_for": "Multimedia Pembelajaran Interaktif dan Educational Game",
+      "target_device": ["Web", "Android", "Desktop"],
+      "estimated_total_duration_minutes": 120
+    },
+    "identitas_dan_konteks_kurikulum": {
+      "topik": "Ekosistem — Komponen Ekosistem, Hubungan dalam Ekosistem, dan Interaksi Makhluk Hidup.",
+      "mata_pelajaran": "IPA",
+      "jenjang": "SD",
+      "kelas": 5,
+      "fase": "C",
+      "sasaran_usia": "10-11 tahun",
+      "pendekatan": "Kurikulum Merdeka; pembelajaran kontekstual, inkuiri, gamifikasi, dan diferensiasi",
+      "model_pembelajaran": [
+        "Problem Based Learning",
+        "Inquiry Learning",
+        "Game Based Learning"
+      ],
+      "profil_pelajar_pancasila": [
+        "Beriman dan bertakwa kepada Tuhan Yang Maha Esa",
+        "Berkebinekaan global",
+        "Bergotong royong",
+        "Mandiri",
+        "Bernalar kritis",
+        "Kreatif"
+      ],
+      "konteks_lokal": [
+        "Ekosistem sawah",
+        "Ekosistem kebun sekolah",
+        "Ekosistem sungai",
+        "Ekosistem hutan",
+        "Ekosistem laut"
+      ]
+    },
+    "capaian_dan_tujuan": {
+      "capaian_pembelajaran": "Peserta didik mengidentifikasi komponen ekosistem, menjelaskan hubungan antar komponen, dan menganalisis interaksi makhluk hidup dalam ekosistem.",
+      "tujuan_pembelajaran": [
+        {
+          "id": "TP-01",
+          "tujuan": "Peserta didik dapat membedakan komponen biotik dan abiotik dalam ekosistem.",
+          "level_kognitif": "C2"
+        },
+        {
+          "id": "TP-02",
+          "tujuan": "Peserta didik dapat menjelaskan peran produsen, konsumen, dan pengurai dalam ekosistem.",
+          "level_kognitif": "C2"
+        },
+        {
+          "id": "TP-03",
+          "tujuan": "Peserta didik dapat menyusun rantai makanan dan jaring-jaring makanan sederhana.",
+          "level_kognitif": "C3"
+        },
+        {
+          "id": "TP-04",
+          "tujuan": "Peserta didik dapat membedakan simbiosis mutualisme, komensalisme, dan parasitisme.",
+          "level_kognitif": "C2"
+        },
+        {
+          "id": "TP-05",
+          "tujuan": "Peserta didik dapat memprediksi dampak perubahan komponen ekosistem terhadap keseimbangan ekosistem.",
+          "level_kognitif": "C4"
+        },
+        {
+          "id": "TP-06",
+          "tujuan": "Peserta didik dapat menunjukkan sikap peduli dan bertanggung jawab terhadap kelestarian ekosistem.",
+          "level_kognitif": "A3"
+        }
+      ],
+      "indikator_keberhasilan": [
+        "Menyebutkan minimal tiga komponen biotik dan tiga komponen abiotik.",
+        "Mengelompokkan makhluk hidup berdasarkan perannya sebagai produsen, konsumen, atau pengurai.",
+        "Membuat urutan rantai makanan dengan arah panah yang benar.",
+        "Menjelaskan satu contoh simbiosis mutualisme, komensalisme, dan parasitisme.",
+        "Memberikan satu prediksi dampak jika satu komponen ekosistem hilang.",
+        "Menyampaikan satu tindakan sederhana untuk menjaga ekosistem."
+      ],
+      "miskonsepsi_umum": [
+        {
+          "miskonsepsi": "Semua hewan hijau adalah produsen.",
+          "koreksi": "Produsen utama adalah tumbuhan berdaun hijau yang mampu berfotosintesis."
+        },
+        {
+          "miskonsepsi": "Pengurai tidak penting karena hanya menguraikan sampah.",
+          "koreksi": "Pengurai mengembalikan nutrisi ke tanah sehingga ekosistem tetap seimbang."
+        },
+        {
+          "miskonsepsi": "Rantai makanan selalu dimulai dari hewan besar.",
+          "koreksi": "Rantai makanan umumnya dimulai dari produsen atau sumber energi matahari."
+        },
+        {
+          "miskonsepsi": "Semua interaksi antar makhluk hidup merugikan.",
+          "koreksi": "Ada interaksi mutualisme dan komensalisme yang menguntungkan satu atau kedua pihak."
+        }
+      ]
+    },
+    "struktur_materi": {
+      "konsep_kunci": [
+        {
+          "id": "KK-01",
+          "konsep": "Komponen biotik",
+          "definisi": "Komponen ekosistem yang berupa makhluk hidup.",
+          "contoh": ["Tumbuhan", "Hewan", "Bakteri", "Jamur"],
+          "miskonsepsi": "Biotik hanya berarti hewan besar."
+        },
+        {
+          "id": "KK-02",
+          "konsep": "Komponen abiotik",
+          "definisi": "Komponen ekosistem yang berupa benda tak hidup.",
+          "contoh": ["Air", "Tanah", "Udara", "Cahaya matahari", "Suhu"],
+          "miskonsepsi": "Abiotik tidak berpengaruh terhadap makhluk hidup."
+        },
+        {
+          "id": "KK-03",
+          "konsep": "Produsen, konsumen, dan pengurai",
+          "definisi": "Produsen membuat makanan sendiri; konsumen memakan makhluk lain; pengurai menguraikan sisa makhluk hidup.",
+          "contoh": ["Padi sebagai produsen", "Tikus sebagai konsumen", "Jamur sebagai pengurai"],
+          "miskonsepsi": "Pengurai sama dengan konsumen puncak."
+        },
+        {
+          "id": "KK-04",
+          "konsep": "Rantai makanan dan jaring-jaring makanan",
+          "definisi": "Rantai makanan adalah urutan perpindahan energi; jaring-jaring makanan adalah kumpulan rantai makanan yang saling berhubungan.",
+          "contoh": ["Padi → tikus → ular → elang", "Padi → belalang → katak → ular"],
+          "miskonsepsi": "Rantai makanan boleh berbalik arah."
+        },
+        {
+          "id": "KK-05",
+          "konsep": "Simbiosis",
+          "definisi": "Hubungan erat antara dua makhluk hidup berbeda jenis.",
+          "contoh": ["Mutualisme: kupu-kupu dan bunga", "Komensalisme: anggrek dan pohon", "Parasitisme: kutu dan hewan"],
+          "miskonsepsi": "Semua simbiosis menguntungkan kedua pihak."
+        },
+        {
+          "id": "KK-06",
+          "konsep": "Keseimbangan ekosistem",
+          "definisi": "Keadaan ekosistem yang komponennya saling mendukung dan berjalan seimbang.",
+          "contoh": ["Populasi ular menjaga populasi tikus", "Lebah membantu penyerbukan"],
+          "miskonsepsi": "Ekosistem tetap seimbang meskipun satu komponen hilang."
+        }
+      ]
+    },
+    "desain_pembelajaran": {
+      "pertemuan": [
+        {
+          "id": "P-01",
+          "topik": "Komponen Ekosistem",
+          "durasi_menit": 40,
+          "tujuan_terkait": ["TP-01", "TP-02"],
+          "sintaks": [
+            {
+              "fase": "Pendahuluan",
+              "durasi_menit": 8,
+              "aktivitas_guru": "Menampilkan gambar ekosistem sekolah dan mengajukan pertanyaan pemantik.",
+              "aktivitas_siswa": "Mengamati gambar dan menyampaikan dugaan tentang komponen yang terlihat.",
+              "media": ["Gambar ekosistem", "Video singkat"],
+              "asesmen": "Diagnostik lisan"
+            },
+            {
+              "fase": "Inti",
+              "durasi_menit": 24,
+              "aktivitas_guru": "Memandu aktivitas sortir kartu biotik dan abiotik serta menjelaskan peran produsen, konsumen, dan pengurai.",
+              "aktivitas_siswa": "Mengelompokkan kartu, berdiskusi kelompok, dan mempresentasikan hasil.",
+              "media": ["Kartu komponen ekosistem", "Lembar kerja"],
+              "asesmen": "Formatif observasi dan lembar kerja"
+            },
+            {
+              "fase": "Penutup",
+              "durasi_menit": 8,
+              "aktivitas_guru": "Membimbing refleksi dan memberikan penguatan konsep.",
+              "aktivitas_siswa": "Menuliskan tiga hal yang dipelajari dan satu pertanyaan lanjutan.",
+              "media": ["Papan tulis digital", "Exit ticket"],
+              "asesmen": "Exit ticket"
+            }
+          ]
+        },
+        {
+          "id": "P-02",
+          "topik": "Hubungan dan Interaksi dalam Ekosistem",
+          "durasi_menit": 40,
+          "tujuan_terkait": ["TP-03", "TP-04"],
+          "sintaks": [
+            {
+              "fase": "Pendahuluan",
+              "durasi_menit": 7,
+              "aktivitas_guru": "Menampilkan contoh rantai makanan dan simbiosis dalam kehidupan sehari-hari.",
+              "aktivitas_siswa": "Mengamati dan menebak hubungan antar makhluk hidup.",
+              "media": ["Video interaktif", "Slide"],
+              "asesmen": "Tanya jawab"
+            },
+            {
+              "fase": "Inti",
+              "durasi_menit": 26,
+              "aktivitas_guru": "Membimbing permainan menyusun rantai makanan dan kartu simbiosis.",
+              "aktivitas_siswa": "Menyusun rantai makanan, mencocokkan contoh simbiosis, dan menjelaskan alasan.",
+              "media": ["Game drag and drop", "Kartu simbiosis"],
+              "asesmen": "Formatif berbasis game"
+            },
+            {
+              "fase": "Penutup",
+              "durasi_menit": 7,
+              "aktivitas_guru": "Merefleksikan hasil permainan dan mengklarifikasi miskonsepsi.",
+              "aktivitas_siswa": "Menyimpulkan perbedaan mutualisme, komensalisme, dan parasitisme.",
+              "media": ["Papan skor", "Kuis singkat"],
+              "asesmen": "Kuis singkat"
+            }
+          ]
+        },
+        {
+          "id": "P-03",
+          "topik": "Keseimbangan Ekosistem dan Aksi Peduli Lingkungan",
+          "durasi_menit": 40,
+          "tujuan_terkait": ["TP-05", "TP-06"],
+          "sintaks": [
+            {
+              "fase": "Pendahuluan",
+              "durasi_menit": 7,
+              "aktivitas_guru": "Menyajikan studi kasus hilangnya predator atau pencemaran sungai.",
+              "aktivitas_siswa": "Mengidentifikasi masalah dan akibat yang mungkin terjadi.",
+              "media": ["Studi kasus bergambar", "Simulasi sederhana"],
+              "asesmen": "Diagnostik berbasis kasus"
+            },
+            {
+              "fase": "Inti",
+              "durasi_menit": 26,
+              "aktivitas_guru": "Memandu simulasi game keseimbangan ekosistem dan diskusi solusi.",
+              "aktivitas_siswa": "Menjalankan simulasi, mencatat perubahan populasi, dan merancang aksi pelestarian.",
+              "media": ["Game simulasi", "Lembar prediksi"],
+              "asesmen": "Formatif proyek mini"
+            },
+            {
+              "fase": "Penutup",
+              "durasi_menit": 7,
+              "aktivitas_guru": "Mengarahkan presentasi aksi peduli lingkungan dan refleksi.",
+              "aktivitas_siswa": "Menyampaikan komitmen aksi sederhana untuk menjaga ekosistem.",
+              "media": ["Poster digital", "Padlet"],
+              "asesmen": "Refleksi dan komitmen aksi"
+            }
+          ]
+        }
+      ]
+    },
+    "desain_game_edukasi": {
+      "judul": "Petualangan Ekosistem: Jaga Keseimbangan",
+      "genre": "Adventure puzzle dan simulasi",
+      "platform": ["Web", "Android", "Desktop"],
+      "mode": ["Individu", "Kelompok"],
+      "learning_mechanics": [
+        "Eksplorasi biome",
+        "Klasifikasi komponen biotik dan abiotik",
+        "Drag and drop rantai makanan",
+        "Pencocokan simbiosis",
+        "Simulasi dampak perubahan populasi"
+      ],
+      "level": [
+        {
+          "id": "L-01",
+          "nama": "Jelajah Ekosistem Sekolah",
+          "tujuan": "Mengidentifikasi komponen biotik dan abiotik.",
+          "mekanik": "Pemain memindai lingkungan virtual dan menempatkan objek ke keranjang biotik atau abiotik.",
+          "kriteria_lulus": "Minimal 80 persen objek diklasifikasikan benar.",
+          "durasi_estimasi_menit": 8
+        },
+        {
+          "id": "L-02",
+          "nama": "Pabrik Makanan Alam",
+          "tujuan": "Menjelaskan peran produsen, konsumen, dan pengurai.",
+          "mekanik": "Pemain memberi label peran pada makhluk hidup dan menyusun piramida peran.",
+          "kriteria_lulus": "Semua label benar dan penjelasan singkat tepat.",
+          "durasi_estimasi_menit": 8
+        },
+        {
+          "id": "L-03",
+          "nama": "Rantai Makanan Hilang",
+          "tujuan": "Menyusun rantai makanan dan jaring-jaring makanan.",
+          "mekanik": "Pemain menghubungkan kartu makhluk hidup dengan panah energi yang benar.",
+          "kriteria_lulus": "Minimal tiga rantai makanan valid terbentuk.",
+          "durasi_estimasi_menit": 10
+        },
+        {
+          "id": "L-04",
+          "nama": "Kartu Simbiosis",
+          "tujuan": "Membedakan mutualisme, komensalisme, dan parasitisme.",
+          "mekanik": "Pemain mencocokkan pasangan makhluk hidup dengan jenis simbiosis.",
+          "kriteria_lulus": "Minimal 80 persen pasangan benar.",
+          "durasi_estimasi_menit": 8
+        },
+        {
+          "id": "L-05",
+          "nama": "Penjaga Keseimbangan",
+          "tujuan": "Memprediksi dampak perubahan komponen ekosistem.",
+          "mekanik": "Pemain mengatur populasi dalam simulasi dan mengamati dampaknya.",
+          "kriteria_lulus": "Pemain menjelaskan minimal dua dampak perubahan populasi.",
+          "durasi_estimasi_menit": 10
+        }
+      ],
+      "skor": {
+        "benar": 10,
+        "salah": -2,
+        "petunjuk": -3,
+        "bonus_kecepatan": 5,
+        "bonus_penjelasan": 5,
+        "nilai_minimum_lulus": 75
+      },
+      "feedback": {
+        "benar": "Tepat! Kamu menemukan hubungan yang benar dalam ekosistem.",
+        "salah": "Belum tepat. Periksa kembali peran dan arah energi pada ekosistem.",
+        "petunjuk": "Ingat: produsen membuat makanan sendiri, konsumen memakan makhluk lain, dan pengurai menguraikan sisa makhluk hidup.",
+        "selesai": "Kamu telah menyelesaikan petualangan. Jaga ekosistem di dunia nyata juga, ya!"
+      },
+      "ui_ux": {
+        "navigasi": "Sederhana dengan ikon besar dan teks pendek",
+        "warna": "Kontras tinggi dan ramah anak",
+        "teks": "Maksimal 12 kata per instruksi utama",
+        "audio": "Narasi instruksi dan efek suara ringan dapat dimatikan"
+      }
+    },
+    "asesmen": {
+      "diagnostik": {
+        "bentuk": "Tanya jawab dan kuis pemetaan awal",
+        "fokus": "Pengetahuan awal tentang komponen ekosistem dan interaksi makhluk hidup"
+      },
+      "formatif": {
+        "bentuk": ["Observasi", "Lembar kerja", "Game score", "Exit ticket"],
+        "fokus": "Kemajuan penguasaan konsep dan keterampilan kolaborasi"
+      },
+      "sumatif": {
+        "bentuk": ["Kuis pilihan ganda", "Tugas menyusun jaring-jaring makanan", "Refleksi aksi peduli lingkungan"],
+        "bobot_persen": {
+          "kuis": 40,
+          "tugas_jaring_makanan": 40,
+          "refleksi_aksi": 20
+        }
+      },
+      "rubrik": [
+        {
+          "kriteria": "Pemahaman komponen ekosistem",
+          "level_4": "Membedakan biotik dan abiotik serta menjelaskan perannya dengan contoh tepat.",
+          "level_3": "Membedakan biotik dan abiotik dengan sedikit kesalahan contoh.",
+          "level_2": "Masih tertukar saat membedakan biotik dan abiotik.",
+          "level_1": "Belum mampu membedakan komponen ekosistem."
+        },
+        {
+          "kriteria": "Rantai dan jaring-jaring makanan",
+          "level_4": "Menyusun lebih dari tiga rantai makanan valid dan menjelaskan aliran energi.",
+          "level_3": "Menyusun tiga rantai makanan valid.",
+          "level_2": "Menyusun satu sampai dua rantai makanan dengan bantuan.",
+          "level_1": "Belum mampu menyusun rantai makanan."
+        },
+        {
+          "kriteria": "Interaksi makhluk hidup",
+          "level_4": "Menjelaskan tiga jenis simbiosis dengan contoh dan alasan tepat.",
+          "level_3": "Menjelaskan tiga jenis simbiosis dengan contoh sebagian tepat.",
+          "level_2": "Menjelaskan satu sampai dua jenis simbiosis.",
+          "level_1": "Belum mampu menjelaskan jenis simbiosis."
+        },
+        {
+          "kriteria": "Sikap peduli lingkungan",
+          "level_4": "Menyampaikan aksi nyata dan alasan pelestarian ekosistem secara meyakinkan.",
+          "level_3": "Menyampaikan aksi nyata sederhana untuk pelestarian ekosistem.",
+          "level_2": "Menyampaikan ide aksi dengan bantuan guru.",
+          "level_1": "Belum menunjukkan ide aksi peduli lingkungan."
+        }
+      ],
+      "kuis": [
+        {
+          "id": "Q-01",
+          "tipe": "pilihan_ganda",
+          "pertanyaan": "Manakah yang termasuk komponen abiotik?",
+          "pilihan": ["Padi", "Air", "Tikus", "Jamur"],
+          "jawaban": "Air",
+          "penjelasan": "Air adalah komponen tak hidup atau abiotik.",
+          "level": "L-01"
+        },
+        {
+          "id": "Q-02",
+          "tipe": "pilihan_ganda",
+          "pertanyaan": "Makhluk hidup yang membuat makanan sendiri disebut?",
+          "pilihan": ["Konsumen", "Produsen", "Pengurai", "Predator"],
+          "jawaban": "Produsen",
+          "penjelasan": "Produsen seperti tumbuhan hijau membuat makanan melalui fotosintesis.",
+          "level": "L-02"
+        },
+        {
+          "id": "Q-03",
+          "tipe": "pilihan_ganda",
+          "pertanyaan": "Urutan rantai makanan yang benar adalah?",
+          "pilihan": ["Padi → belalang → katak → ular", "Ular → katak → belalang → padi", "Katak → padi → ular → belalang", "Belalang → padi → ular → katak"],
+          "jawaban": "Padi → belalang → katak → ular",
+          "penjelasan": "Energi mengalir dari produsen ke konsumen secara berurutan.",
+          "level": "L-03"
+        },
+        {
+          "id": "Q-04",
+          "tipe": "pilihan_ganda",
+          "pertanyaan": "Hubungan kupu-kupu dan bunga termasuk simbiosis?",
+          "pilihan": ["Mutualisme", "Komensalisme", "Parasitisme", "Predasi"],
+          "jawaban": "Mutualisme",
+          "penjelasan": "Kupu-kupu mendapat nektar dan bunga terbantu penyerbukannya.",
+          "level": "L-04"
+        },
+        {
+          "id": "Q-05",
+          "tipe": "pilihan_ganda",
+          "pertanyaan": "Jamur dan bakteri yang menguraikan sisa makhluk hidup berperan sebagai?",
+          "pilihan": ["Produsen", "Konsumen", "Pengurai", "Abiotik"],
+          "jawaban": "Pengurai",
+          "penjelasan": "Pengurai mengembalikan nutrisi ke lingkungan.",
+          "level": "L-02"
+        },
+        {
+          "id": "Q-06",
+          "tipe": "pilihan_ganda",
+          "pertanyaan": "Jika populasi ular di sawah berkurang, kemungkinan yang terjadi adalah?",
+          "pilihan": ["Populasi tikus meningkat", "Populasi padi hilang", "Populasi belalang hilang", "Tidak ada perubahan"],
+          "jawaban": "Populasi tikus meningkat",
+          "penjelasan": "Ular adalah predator tikus sehingga berkurangnya ular dapat meningkatkan populasi tikus.",
+          "level": "L-05"
+        },
+        {
+          "id": "Q-07",
+          "tipe": "pilihan_ganda",
+          "pertanyaan": "Anggrek yang menempel pada pohon tanpa merugikan pohon termasuk contoh?",
+          "pilihan": ["Mutualisme", "Komensalisme", "Parasitisme", "Kompetisi"],
+          "jawaban": "Komensalisme",
+          "penjelasan": "Anggrek diuntungkan karena mendapat tempat hidup, pohon tidak dirugikan.",
+          "level": "L-04"
+        },
+        {
+          "id": "Q-08",
+          "tipe": "pilihan_ganda",
+          "pertanyaan": "Tindakan yang paling tepat untuk menjaga ekosistem sekolah adalah?",
+          "pilihan": ["Membuang sampah ke sungai", "Menebang semua pohon", "Menanam tanaman dan memelihara kebersihan", "Menangkap semua serangga"],
+          "jawaban": "Menanam tanaman dan memelihara kebersihan",
+          "penjelasan": "Menanam tanaman dan menjaga kebersihan mendukung keseimbangan ekosistem.",
+          "level": "L-05"
+        }
+      ]
+    },
+    "media_dan_aset": [
+      {
+        "id": "A-01",
+        "tipe": "gambar",
+        "nama": "Ekosistem sekolah",
+        "deskripsi": "Ilustrasi halaman sekolah dengan tumbuhan, hewan kecil, air, tanah, dan cahaya.",
+        "penggunaan": "Pemantik dan level 1",
+        "format": "PNG atau SVG"
+      },
+      {
+        "id": "A-02",
+        "tipe": "video",
+        "nama": "Aliran energi dalam ekosistem",
+        "deskripsi": "Video singkat 2 menit tentang produsen, konsumen, dan pengurai.",
+        "penggunaan": "Pertemuan 1 dan 2",
+        "format": "MP4"
+      },
+      {
+        "id": "A-03",
+        "tipe": "game_asset",
+        "nama": "Kartu makhluk hidup",
+        "deskripsi": "Set kartu berisi padi, belalang, katak, ular, jamur, dan elang.",
+        "penggunaan": "Level 3",
+        "format": "PNG"
+      },
+      {
+        "id": "A-04",
+        "tipe": "audio",
+        "nama": "Narasi instruksi",
+        "deskripsi": "Narasi ramah anak untuk setiap level.",
+        "penggunaan": "Seluruh game",
+        "format": "MP3"
+      },
+      {
+        "id": "A-05",
+        "tipe": "lembar_kerja",
+        "nama": "LKPD Jaring-jaring Makanan",
+        "deskripsi": "Lembar aktivitas menyusun jaring-jaring makanan.",
+        "penggunaan": "Pertemuan 2",
+        "format": "PDF"
+      }
+    ],
+    "aksesibilitas_dan_diferensiasi": {
+      "wcag_level": "AA",
+      "fitur_aksesibilitas": [
+        "Teks alternatif pada gambar",
+        "Kontrol volume dan tombol mute",
+        "Kontras warna tinggi",
+        "Navigasi keyboard",
+        "Instruksi audio opsional",
+        "Teks dapat diperbesar"
+      ],
+      "diferensiasi": [
+        {
+          "profil": "Siswa yang memerlukan dukungan",
+          "strategi": "Berikan kartu petunjuk, contoh, dan pendampingan teman sebaya."
+        },
+        {
+          "profil": "Siswa sesuai fase",
+          "strategi": "Gunakan aktivitas drag and drop dan diskusi kelompok."
+        },
+        {
+          "profil": "Siswa dengan kesiapan tinggi",
+          "strategi": "Berikan tantangan menyusun jaring-jaring makanan yang lebih kompleks dan simulasi dampak."
+        }
+      ]
+    },
+    "prompt_specifications": {
+      "system_role": "Anda adalah Principal Curriculum Architect, Educational Software Engineer, dan JSON Specialist.",
+      "user_role": "Guru atau pengembang media pembelajaran yang membutuhkan dataset pedagogis valid.",
+      "objective": "Menghasilkan dataset JSON lengkap dan valid untuk MPI serta game edukasi tentang ekosistem bagi siswa SD kelas 5 Fase C.",
+      "required_sections": [
+        "metadata",
+        "identitas_dan_konteks_kurikulum",
+        "capaian_dan_tujuan",
+        "struktur_materi",
+        "desain_pembelajaran",
+        "desain_game_edukasi",
+        "asesmen",
+        "media_dan_aset",
+        "aksesibilitas_dan_diferensiasi",
+        "prompt_specifications",
+        "validation"
+      ],
+      "constraints": [
+        "Keluarkan hanya JSON valid tanpa markdown dan tanpa komentar.",
+        "Gunakan bahasa Indonesia.",
+        "Sesuaikan konten dengan usia 10-11 tahun.",
+        "Gunakan Kurikulum Merdeka Fase C.",
+        "Sertakan tujuan pembelajaran, aktivitas, game, asesmen, dan rubrik.",
+        "Pastikan tidak ada trailing comma.",
+        "Pastikan semua string menggunakan tanda kutip ganda."
+      ],
+      "output_format": "JSON object yang dapat langsung diparsing.",
+      "quality_rules": [
+        "Konsep ilmiah harus benar.",
+        "Contoh harus kontekstual dan mudah dipahami.",
+        "Asesmen harus selaras dengan tujuan pembelajaran.",
+        "Game harus memiliki mekanik yang mendukung pencapaian tujuan.",
+        "Feedback harus positif, spesifik, dan mendidik."
+      ],
+      "localization": {
+        "bahasa": "id-ID",
+        "istilah": "Gunakan istilah IPA yang baku dan sederhana.",
+        "budaya": "Gunakan contoh ekosistem yang umum di Indonesia."
+      },
+      "safety": [
+        "Tidak memuat konten berbahaya.",
+        "Tidak memuat data pribadi siswa.",
+        "Tidak menampilkan stereotip yang merugikan."
+      ],
+      "validation_rules": [
+        "JSON harus dapat diparsing.",
+        "Semua array dan object harus tertutup dengan benar.",
+        "Semua field wajib harus ada.",
+        "Tidak boleh ada komentar di luar struktur JSON."
+      ],
+      "master_prompt": "Buat dataset JSON valid untuk Multimedia Pembelajaran Interaktif dan game edukasi IPA SD kelas 5 Fase C tentang Ekosistem. Sertakan identitas kurikulum, capaian dan tujuan pembelajaran, konsep kunci, miskonsepsi, rancangan tiga pertemuan, desain game lima level, asesmen diagnostik formatif sumatif, kuis dengan kunci dan penjelasan, rubrik, media, aksesibilitas, diferensiasi, serta spesifikasi prompt. Keluarkan hanya JSON valid tanpa markdown."
+    },
+    "validation": {
+      "is_valid_json": true,
+      "schema_version": "1.0.0",
+      "required_top_level_keys_present": true,
+      "checks": [
+        {
+          "name": "format_json",
+          "passed": true
+        },
+        {
+          "name": "no_markdown_fence",
+          "passed": true
+        },
+        {
+          "name": "no_trailing_comma",
+          "passed": true
+        },
+        {
+          "name": "curriculum_alignment_fase_c",
+          "passed": true
+        },
+        {
+          "name": "assessment_alignment",
+          "passed": true
+        }
+      ]
+    }
+  }
+}
